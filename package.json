@@ -1,0 +1,14 @@
+{
+  "name": "node-blue-node-tvheadend",
+  "version": "1.0.0",
+  "description": "This package provides a tvheadend node for Node-BLUE.",
+  "homepage": "https://github.com/Homegear/node-blue-node-tvheadend",
+  "node-blue": {
+    "maxThreadCounts": {
+      "tvheadend": 0
+    },
+    "nodes": {
+      "tvheadend": "tvheadend.php"
+    }
+  }
+}
